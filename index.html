@@ -11,7 +11,7 @@
 <body>
     <div id="app">
 
-        <ul v-if="arrayEmail.length === numEmail">
+        <ul v-show="arrayEmail.length === numEmail">
 
             <li v-for=" email in arrayEmail" >
                 {{ email }}
